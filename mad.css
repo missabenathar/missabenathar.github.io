@@ -1,1 +1,127 @@
+@import url ('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Noto+Sans+TC:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@import url('https://gabrielschiavis.github.io/copy/import.css');
+.madz-gabs a{color: #fff; font-weight: bold;}
+.madz-gabs {
+background: var(--fundo, url('https://as1.ftcdn.net/v2/jpg/05/71/87/26/1000_F_571872679_KIfTIDw0SstlGUFEZU35SGK2ZvG5Y7W1.jpg')), linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(24, 24, 24, 1) 62%, rgba(30, 30, 30, 1) 60%, rgba(55, 55, 55, 1) 70%, rgba(65, 65, 65, 1) 70%, rgba(75, 75, 75, 1) 75%, rgba(85, 85, 85, 1) 80%, rgba(95, 95, 95, 1) 90%, rgba(105, 105, 105, 0.2) 100%), var(--cor-grupo);
+background-blend-mode: multiply;
+background-size: cover; 
+background-attachment: fixed;
+background-position-x: 50%;
+font-size: 12px; 
+width: 550px;
+margin: auto auto; 
+box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
+
+.madz-head h1{
+font-family: 'Roboto Slab';
+font-size: 2em;
+text-align: center;
+padding: 20px 0px 20px 0px; 
+color: var(--cor-grupo-rgba2); /* NÃO ESQUEÇA DE MUDAR */
+font-weight: 800;
+text-transform: uppercase; 
+}
+
+.madz-head h1 b {
+color: var(--cor-grupo-rgba3); /* NÃO ESQUEÇA DE MUDAR */
+}
+.madz-head {
+background: rgba(0 0 0, 0.9);
+display: flex;
+position: relative; 
+font-size: 1em;
+height: 100px;
+justify-content: center; }
+
+
+.madz-imagem, .madz-imagem2, .madz-imagem3 { 
+display: flex;
+justify-content: center; 
+align-items: center; 
+border-radius: 100%;
+width: 60px; height: 60px;
+border: 2px solid var(--cor-grupo-rgba);
+margin:20px 20px;
+
+}
+
+.madz-imagem { 
+position: absolute;
+left: -7px;
+top: 30px;
+background: var(--imagem1, var(--imagem2, var(--imagem3))), rgba(0, 0, 0, 0.2);
+background-size: cover; 
+background-blend-mode: overlay;
+         
+}
+
+.madz-imagem2 {
+border: 1px solid rgba(255, 255, 255, 1);
+position: absolute;
+left: -7px;
+top: 120px;
+background: var(--imagem2, var(--imagem1, var(--imagem3))), rgba(0, 0, 0, 0.2);
+background-size: cover; 
+background-blend-mode: overlay;
+
+}
+
+.madz-imagem3 {
+position: absolute; 
+left: -7px;
+top: 210px;
+background: var(--imagem3, var(--imagem1, var(--imagem2))), rgba(0, 0, 0, 0.2);
+background-size: cover; 
+background-blend-mode: overlay;
+}
+
+.madz-texto { 
+         min-height: 320px; 
+         font-size: 1.1em;
+         color: #fff; 
+         margin-top: 10px; margin-bottom: 10px; margin-left: 60px; margin-right: 20px; 
+         padding: 0 35px;
+         text-align: justify; 
+         font-family: Merriweather;
+         white-space: pre-line; 
+         line-height: 25px; 
+         border-top: 1px dashed var(--cor-grupo-rgba);
+     
+}
+
+.data-madz{
+transition: 0.5s;
+visibility: hidden;
+position: absolute; 
+box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+width: 80px;
+padding: 5px 0px;
+min-height: 15px; 
+background: var(--cor-grupo-rgba);
+color: #e1e1e1;
+font-family: Diphylleia;
+font-size: 9px;
+line-height: 10px;
+text-align: center;}
+
+.madz-imagem:hover .data-madz, .madz-imagem2:hover .data-madz, .madz-imagem3:hover .data-madz {visibility: visible;}
+
+
+.container-madz {display: flex;
+position: relative; }
+
+
+.madz-texto b, .madz-texto i{color: var(--cor-grupo); font-size: 1.15em; }
+
+#Eliot .madz-gabs {
+--imagem1: url('https://i.imgur.com/w5BKLE8.jpeg'); 
+--fundo: url('https://i.imgur.com/BVty3rH.png');}
 
