@@ -41,48 +41,6 @@ font-size: 1em;
 height: 100px;
 justify-content: center; }
 
-
-.madz-imagem, .madz-imagem2, .madz-imagem3 { 
-display: flex;
-justify-content: center; 
-align-items: center; 
-border-radius: 100%;
-width: 60px; height: 60px;
-border: 2px solid var(--cor-grupo-rgba);
-margin:20px 20px;
-
-}
-
-.madz-imagem { 
-position: absolute;
-left: -7px;
-top: 30px;
-background: var(--imagem1, var(--imagem2, var(--imagem3))), rgba(0, 0, 0, 0.2);
-background-size: cover; 
-background-blend-mode: overlay;
-         
-}
-
-.madz-imagem2 {
-border: 1px solid rgba(255, 255, 255, 1);
-position: absolute;
-left: -7px;
-top: 120px;
-background: var(--imagem2, var(--imagem1, var(--imagem3))), rgba(0, 0, 0, 0.2);
-background-size: cover; 
-background-blend-mode: overlay;
-
-}
-
-.madz-imagem3 {
-position: absolute; 
-left: -7px;
-top: 210px;
-background: var(--imagem3, var(--imagem1, var(--imagem2))), rgba(0, 0, 0, 0.2);
-background-size: cover; 
-background-blend-mode: overlay;
-}
-
 .madz-texto { 
          min-height: 320px; 
          font-size: 1.1em;
@@ -111,8 +69,6 @@ font-family: Diphylleia;
 font-size: 9px;
 line-height: 10px;
 text-align: center;}
-
-.madz-imagem:hover .data-madz, .madz-imagem2:hover .data-madz, .madz-imagem3:hover .data-madz {visibility: visible;}
 
 
 .container-madz {display: flex;
