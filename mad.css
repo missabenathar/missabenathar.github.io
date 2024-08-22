@@ -19,10 +19,20 @@ width: 490px;
 margin: auto auto; 
 box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
 
+  /*Madzz*/
+    --biotico: #31633e;
+    --cacador: #3EB595;
+    --ciborgue: #79A1F7;
+    --feiticeiro: #5b2491;
+    --gorgona: #ff8097;
+    --licantropo: #ff8d00;
+    --metamorfo: #C76969;
+    --sereiano: #80D2F2;
+    --vampiro: #821718;    
+ 
 #biotico {
 --cor-grupo: var(--biotico); 
---cor-grupo: #31633e;
---cor-rgba: rgba(1, 30, 9, 0.9);
+--biotico-rgba: rgba(1, 30, 9, 0.9);
 }
 
 #cacador {
