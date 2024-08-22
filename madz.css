@@ -61,6 +61,8 @@
   opacity: .6;
 }
 
+#rr_woman b, #rr_woman i{color: var(--cor-grupo); font-size: 1.15em; }
+
 #rr_woman:hover::after {
   content: "「is.gd/rossr」";
 }
