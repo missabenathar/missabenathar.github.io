@@ -38,9 +38,11 @@
 }
 
 #rr_woman a[href="https://is.gd/rossr"] ~ .rcontainer .rtxt {
-  text-align: justify;
+ text-align: justify;
   letter-spacing: 1px;
-}
+ white-space: pre-line; 
+         line-height: 25px; 
+         }
 
 #rr_woman a[href="https://is.gd/rossr"] {
   height: 12px;
