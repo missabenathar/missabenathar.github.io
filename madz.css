@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Playfair+Display:wght@900&display=swap');
-
+@import url('https://missabenathar.github.io/copy/import.css');
 #rr_woman {
   --width: 490px;
   --divider-width: 20%;
@@ -55,6 +55,8 @@
   content: "「RR」";
   font: bold 7px/12px 'Calibri';
   text-transform: uppercase;
+  white-space: pre-line; 
+  border-top: 1px dashed var(--cor-grupo-rgba);
   opacity: .6;
 }
 
