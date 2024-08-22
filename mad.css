@@ -100,17 +100,6 @@ font-weight: 800;
 text-transform: uppercase; 
 }
 
-.madz-head h1 b {
-color: var(--cor-grupo-rgba); /* NÃO ESQUEÇA DE MUDAR */
-}
-.madz-head {
-background: rgba(0 0 0, 0.9);
-display: flex;
-position: relative; 
-font-size: 1em;
-height: 100px;
-justify-content: center; }
-
 .madz-texto { 
          min-height: 320px; 
          font-size: 14px;
