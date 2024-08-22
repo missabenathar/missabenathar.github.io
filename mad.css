@@ -20,51 +20,61 @@ margin: auto auto;
 box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
 
 #biótico .madz-gabs {
+--cor-grupo: var(--biotico); 
 --cor-grupo: #31633e;
 --cor-rgba: rgba(1, 30, 9, 0.9);
 }
 
 #cacador .madz-gabs {
+--cor-grupo: var(--cacador); 
 --cor-grupo: #3EB595;
 --cor-rgba: rgba(11, 48, 38, 0.9);
 }
 
 #ciborgue .madz-gabs {
+--cor-grupo: var(--ciborgue); 
 --cor-grupo: #79A1F7
 --cor-rgba: rgba(23, 38, 68, 0.9);
 }
 
 #feiticeiro .madz-gabs {
+--cor-grupo: var(--feiticeiro); 
 --cor-grupo: #5b2491;
 --cor-rgba: rgba(47, 23, 70, 0.9);
 }
 
 #gorgona .madz-gabs {
+--cor-grupo: var(--gorgona); 
 --cor-grupo: #ff8097;
 --cor-rgba: rgba(97, 44, 53, 0.9);
 }
 
 #licantropo .madz-gabs {
+--cor-grupo: var(--licantropo); 
 --cor-grupo: #ff8d00;
 --cor-rgba: rgba(88, 49, 0, 0.9);
 }
 
 #metamorfo .madz-gabs {
+ --cor-grupo: var(--metamorfo); 
 --cor-grupo: #C76969;
 --cor-rgba: rgba(108, 55, 55, 0.9);
 }
 
 #parademonio .madz-gabs {
+--cor-grupo: var(--parademonio); 
 --cor-grupo: #A3C0A2;
 --cor-rgba: rgba(43, 70, 41, 0.9);
 }
 
 #sereiano .madz-gabs {
+--cor-grupo: var(--sereiano); 
 --cor-grupo: #80D2F2;
  --cor-rgba: rgba(37, 72, 86, 0.9);
 }
 
 #vampiro .madz-gabs {
+--cor-grupo: var(--vampiro); 
 --cor-grupo: #821718;
 --cor-rgba: rgba(50, 1, 1, 0.9);
 }
@@ -74,13 +84,13 @@ font-family: 'Roboto Slab';
 font-size: 2em;
 text-align: center;
 padding: 20px 0px 20px 0px; 
-color: var(--cor-rgba); /* NÃO ESQUEÇA DE MUDAR */
+color: var(--cor-grupo-rgba); /* NÃO ESQUEÇA DE MUDAR */
 font-weight: 800;
 text-transform: uppercase; 
 }
 
 .madz-head h1 b {
-color: var(--cor-rgba); /* NÃO ESQUEÇA DE MUDAR */
+color: var(--cor-grupo-rgba); /* NÃO ESQUEÇA DE MUDAR */
 }
 .madz-head {
 background: rgba(0 0 0, 0.9);
@@ -100,7 +110,7 @@ justify-content: center; }
          font-family: Calibri;
          white-space: pre-line; 
          line-height: 25px; 
-         border-top: 1px dashed var(--cor-rgba);
+         border-top: 1px dashed var(--cor-grupo-rgba);
      
 }
 
