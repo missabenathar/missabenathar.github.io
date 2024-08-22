@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Playfair+Display:wght@900&display=swap');
+
+#rr_woman {
+  --width: 650px;
+  --divider-width: 40%;
+  --invert-divider: .3;
+  --bg-color: #dadada;
+  --text-color: #000;
+  --font-style: 13px/180% 'Gentium Book Plus', serif;
+  margin: 30px 0;
+  position: relative;
+}
+
+#rr_woman a[href="https://is.gd/rossr"] ~ .rcontainer {
+  width: var(--width);
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding: 80px 70px 70px;
+  font: var(--font-style);
+}
+
+#rr_woman a[href="https://is.gd/rossr"] ~ .rcontainer .rtitle {
+  margin: 10px 0;
+  font: 900 70px/100% 'Playfair Display', serif;
+}
+
+#rr_woman a[href="https://is.gd/rossr"] ~ .rcontainer .rsub {
+  text-transform: lowercase;
+  font: italic 12px/100% 'Times', serif;
+  letter-spacing: 3px;
+}
+
+#rr_woman a[href="https://is.gd/rossr"] ~ .rcontainer .rdivider {
+  margin: 30px 0;
+  width: var(--divider-width);
+  filter: invert(var(--invert-divider));
+}
+
+#rr_woman a[href="https://is.gd/rossr"] ~ .rcontainer .rtxt {
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+#rr_woman a[href="https://is.gd/rossr"] {
+  height: 12px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#rr_woman:after {
+  display: block;
+  content: "「RR」";
+  font: bold 7px/12px 'Arial';
+  text-transform: uppercase;
+  opacity: .6;
+}
+
+#rr_woman:hover::after {
+  content: "「is.gd/rossr」";
+}
