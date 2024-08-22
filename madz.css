@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Playfair+Display:wght@900&display=swap');
 
 #rr_woman {
-  --width: 500px;
-  --divider-width: 40%;
+  --width: 490px;
+  --divider-width: 20%;
   --invert-divider: .3;
   --bg-color: #dadada;
   --text-color: #000;
