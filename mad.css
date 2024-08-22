@@ -7,6 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap');
 
+@import url('https://gabrielschiavis.github.io/copy/import.css');
 .madz-gabs a{color: #fff; font-weight: bold;}
 .madz-gabs {
 background: var(--fundo, url('https://i.pinimg.com/564x/31/ae/54/31ae54f0dac0fdaa8a55fb7078285f53.jpg')), linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(24, 24, 24, 1) 62%, rgba(30, 30, 30, 1) 60%, rgba(55, 55, 55, 1) 70%, rgba(65, 65, 65, 1) 70%, rgba(75, 75, 75, 1) 75%, rgba(85, 85, 85, 1) 80%, rgba(95, 95, 95, 1) 90%, rgba(105, 105, 105, 0.2) 100%), var(--cor-grupo);
@@ -18,116 +19,19 @@ font-size: 12px;
 width: 490px;
 margin: auto auto; 
 box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
- 
-#biotico {
---cor-grupo: var(--biotico); 
---cor-grupo: #31633e !important;
---biotico-rgba: rgba(1, 30, 9, 0.9);
-}
 
-#cacador {
---cor-grupo: var(--cacador); 
---cor-grupo: #3EB595;
---cor-rgba: rgba(11, 48, 38, 0.9);
-}
-
-#ciborgue {
---cor-grupo: var(--ciborgue); 
---cor-grupo: #79A1F7;
---cor-rgba: rgba(23, 38, 68, 0.9);
-}
-
-#feiticeiro {
---cor-grupo: var(--feiticeiro); 
---cor-grupo: #5b2491;
---cor-rgba: rgba(47, 23, 70, 0.9);
-}
-
-#gorgona {
---cor-grupo: var(--gorgona); 
---cor-grupo: #ff8097;
---cor-rgba: rgba(97, 44, 53, 0.9);
-}
-
-#licantropo {
---cor-grupo: var(--licantropo); 
---cor-grupo: #ff8d00;
---cor-rgba: rgba(88, 49, 0, 0.9);
-}
-
-#metamorfo {
- --cor-grupo: var(--metamorfo); 
---cor-grupo: #C76969;
---cor-rgba: rgba(108, 55, 55, 0.9);
-}
-
-#parademonio {
---cor-grupo: var(--parademonio); 
---cor-grupo: #A3C0A2;
---cor-rgba: rgba(43, 70, 41, 0.9);
-}
-
-#sereiano {
---cor-grupo: var(--sereiano); 
---cor-grupo: #80D2F2;
- --cor-rgba: rgba(37, 72, 86, 0.9);
-}
-
-#vampiro {
---cor-grupo: var(--vampiro); 
---cor-grupo: #821718;
---cor-rgba: rgba(50, 1, 1, 0.9);
-}
-
-cc {
-    color: var(--cacador);
-    }
-
-cb {
-    color: var(--ciborgue);
-    }
-
-ft {
-    color: var(--feiticeiro);
-    }
-
-gr {
-    color: var(--gorgona);
-    }
-
-lc {
-    color: var(--licantropo);
-    }
-
-mt {
-    color: var(--metamorfo);
-    }
-
-pn {
-    color: var(--pandemonio);
-}
-
-
- sr {
-    color: var(--sereiano);
-    }
-
- vp {
-    color: var(--vampiro);
-    }
-         
 .madz-head h1{
 font-family: 'Roboto Slab';
 font-size: 2em;
 text-align: center;
 padding: 20px 0px 20px 0px; 
-color: var(--cor-grupo-rgba); /* NÃO ESQUEÇA DE MUDAR */
+color: var(--cor-grupo-rgba2); /* NÃO ESQUEÇA DE MUDAR */
 font-weight: 800;
 text-transform: uppercase; 
 }
 
 .madz-head h1 b {
-color: var(--cor-grupo-rgba); /* NÃO ESQUEÇA DE MUDAR */
+color: var(--cor-grupo-rgba3); /* NÃO ESQUEÇA DE MUDAR */
 }
 .madz-head {
 background: rgba(0 0 0, 0.9);
@@ -172,4 +76,9 @@ position: relative; }
 
 
 .madz-texto b, .madz-texto i{color: var(--cor-grupo); font-size: 1.15em; }
+
+#Eliot .madz-gabs {
+--imagem1: url('https://i.imgur.com/w5BKLE8.jpeg'); 
+--fundo: url('https://i.imgur.com/BVty3rH.png');}
+
 
