@@ -33,6 +33,7 @@ box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
 #biotico {
 --cor-grupo: var(--biotico); 
 --biotico-rgba: rgba(1, 30, 9, 0.9);
+--cor-grupo-rgba: var(--biotico-rgba);
 }
 
 #cacador {
