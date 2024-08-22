@@ -89,6 +89,43 @@ box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
 --cor-grupo: #821718;
 --cor-rgba: rgba(50, 1, 1, 0.9);
 }
+
+cc {
+    color: var(--cacador);
+    }
+
+cb {
+    color: var(--ciborgue);
+    }
+
+ft {
+    color: var(--feiticeiro);
+    }
+
+gr {
+    color: var(--gorgona);
+    }
+
+lc {
+    color: var(--licantropo);
+    }
+
+mt {
+    color: var(--metamorfo);
+    }
+
+pn {
+    color: var(--pandemonio);
+}
+
+
+ sr {
+    color: var(--sereiano);
+    }
+
+ vp {
+    color: var(--vampiro);
+    }
          
 .madz-head h1{
 font-family: 'Roboto Slab';
@@ -99,6 +136,17 @@ color: var(--cor-grupo-rgba); /* NÃO ESQUEÇA DE MUDAR */
 font-weight: 800;
 text-transform: uppercase; 
 }
+
+.madz-head h1 b {
+color: var(--cor-grupo-rgba3); /* NÃO ESQUEÇA DE MUDAR */
+}
+.madz-head {
+background: rgba(0 0 0, 0.9);
+display: flex;
+position: relative; 
+font-size: 1em;
+height: 100px;
+justify-content: center; }
 
 .madz-texto { 
          min-height: 320px; 
