@@ -53,7 +53,7 @@
 #rr_woman:after {
   display: block;
   content: "「RR」";
-  font: bold 7px/12px 'Arial';
+  font: bold 7px/12px 'Calibri';
   text-transform: uppercase;
   opacity: .6;
 }
