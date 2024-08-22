@@ -37,8 +37,16 @@
 }
 
 #rr_woman a[href="https://is.gd/rossr"] ~ .rcontainer .rtxt {
-  text-align: justify;
-  letter-spacing: 1px;
+         min-height: 320px; 
+         font-size: 14px;
+         color: #D3D3D3; 
+         margin-top: 10px; margin-bottom: 10px; margin-left: 20px; margin-right: 20px; 
+         padding: 0 35px;
+         text-align: justify; 
+         font-family: Calibri;
+         white-space: pre-line; 
+         line-height: 25px; 
+         border-top: 1px dashed var(--cor-grupo-rgba);
 }
 
 #rr_woman a[href="https://is.gd/rossr"] {
@@ -53,11 +61,11 @@
 #rr_woman:after {
   display: block;
   content: "「RR」";
-  font: bold 7px/12px 'Calibri';
+  font: bold 7px/12px 'Arial';
   text-transform: uppercase;
-  white-space: pre-line; 
-  border-top: 1px dashed var(--cor-grupo-rgba);
   opacity: .6;
+}
+     
 }
 
 #rr_woman:hover::after {
