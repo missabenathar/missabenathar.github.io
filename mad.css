@@ -25,13 +25,13 @@ font-family: 'Roboto Slab';
 font-size: 2em;
 text-align: center;
 padding: 20px 0px 20px 0px; 
-color: var(--cor-grupo-rgba4); /* NÃO ESQUEÇA DE MUDAR */
+color: var(--cor-grupo-rgba5); /* NÃO ESQUEÇA DE MUDAR */
 font-weight: 800;
 text-transform: uppercase; 
 }
 
 .madz-head h1 b {
-color: var(--cor-grupo-rgba5); /* NÃO ESQUEÇA DE MUDAR */
+color: var(--cor-grupo-rgba6); /* NÃO ESQUEÇA DE MUDAR */
 }
 .madz-head {
 background: rgba(0 0 0, 0.9);
