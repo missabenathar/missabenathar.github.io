@@ -21,7 +21,7 @@ box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
  
 #biotico {
 --cor-grupo: var(--biotico); 
---cor-grupo: #31633e;
+--cor-grupo: #31633e !important;
 --biotico-rgba: rgba(1, 30, 9, 0.9);
 }
 
@@ -127,7 +127,7 @@ text-transform: uppercase;
 }
 
 .madz-head h1 b {
-color: var(--cor-grupo-rgba3); /* NÃO ESQUEÇA DE MUDAR */
+color: var(--cor-grupo-rgba); /* NÃO ESQUEÇA DE MUDAR */
 }
 .madz-head {
 background: rgba(0 0 0, 0.9);
