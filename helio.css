@@ -21,9 +21,8 @@
 
 #rr_goosebumps a[href="https://is.gd/rossr"] ~ .rcontainer .rheader {
   display: flex;
-  align-items: center;
-  padding: 20px 0px 20px 0px; 
-color: var(--cor-grupo-rgba6);
+  align-items: center; 
+color: var(--cor-grupo-rgba7);
   justify-content: center;
   margin-top: 30px;
   gap: 20px;
@@ -31,7 +30,6 @@ color: var(--cor-grupo-rgba6);
 
 #rr_goosebumps a[href="https://is.gd/rossr"] ~ .rcontainer .rtitle {
   font: 30px/100% 'Fathers', sans-serif;
-  color: var(--cor-grupo-rgba7);
   text-transform: uppercase;
   letter-spacing: 6px;
 }
