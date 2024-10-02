@@ -53,11 +53,12 @@ color: var(--cor-grupo-rgba6);
 }
 
 #rr_goosebumps a[href="https://is.gd/rossr"] ~ .rcontainer .rtxt {
-  margin: 30px 0;
+  margin: 20px 0;
   text-align: justify;
    color: #DCDCDC; 
-    letter-spacing: 1px;
+   letter-spacing: 1px;
  white-space: pre-line; 
+         line-height: 25px; 
         
 }
 
