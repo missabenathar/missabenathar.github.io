@@ -79,7 +79,7 @@ color: var(--cor-grupo-rgba6);
   opacity: .7;
 }
 
-#rr_goosebumps b, #rr_goosebumps i{color: var(--cor-grupo); font-size: 1.10em; }
+#rr_goosebumps b, #rr_goosebumps i{color: var(--cor-grupo); }
 
 #rr_goosebumps:hover::after {
   content: "「is.gd/rossr」";
