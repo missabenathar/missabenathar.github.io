@@ -51,6 +51,7 @@
 #rr_goosebumps a[href="https://is.gd/rossr"] ~ .rcontainer .rtxt {
   margin: 30px 0;
   text-align: justify;
+     color: #D3D3D3; 
     letter-spacing: 1px;
  white-space: pre-line; 
          line-height: 25px;
