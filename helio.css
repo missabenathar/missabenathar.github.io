@@ -39,6 +39,7 @@ color: var(--cor-grupo-rgba6);
 #rr_goosebumps a[href="https://is.gd/rossr"] ~ .rcontainer .rheader span {
   display: block;
   flex-grow: 1;
+ color: var(--cor-grupo-rgba7);
   height: 1px;
   background: var(--lines);
 }
